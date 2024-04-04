@@ -1,4 +1,4 @@
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 
@@ -26,6 +26,8 @@ exports.register = async (req, res) => {
     res.status(500).json({ message: 'Registration failed' });
   }
 };
+
+console.log("registercontroler");
 
 // Login user
 exports.login = async (req, res) => {

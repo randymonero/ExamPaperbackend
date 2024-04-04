@@ -1,0 +1,5 @@
+registration:localhost:4000/auth/register
+login:localhost:localhost:4000/auth/login
+subscription:localhost:4000/subscription/subscribe
+logout:localhost/:4000/auth/logout
+download a file : http://127.0.0.1:4000/filelocation/files/download/id
